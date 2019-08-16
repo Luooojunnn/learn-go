@@ -8,7 +8,7 @@ import (
 	"fmt"
 )
 
-func init()  {
+func init1()  {
 	c1 := make(chan string)
 	c2 := make(chan string)
 

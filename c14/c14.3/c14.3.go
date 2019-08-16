@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func init()  {
+func init1()  {
 	done := make(chan bool, 1)
 
 	go worker(done)
