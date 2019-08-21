@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func init()  {
+func init1()  {
 	c1 := make(chan string, 1)
 	// 模拟 io 操作，两秒延时
 	go func()  {

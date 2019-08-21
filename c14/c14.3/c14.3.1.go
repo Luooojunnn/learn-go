@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func init()  {
+func init2()  {
 	jobs := make(chan int, 5)
 	done := make(chan bool)
 
